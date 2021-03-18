@@ -1,0 +1,21 @@
+<table>
+  <thead>
+    <th>Name</th>
+    <th>Email</th>
+    <th>Course</th>
+    <th>Country</th>
+    <th>State</th>
+    <th>City</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td> {{studentDetails.firstName }} </td>
+      <td>{{ studentDetails.email }}</td>
+      <td>{{ studentDetails.courses }}</td>
+      <td>{{ countryName(studentDetails.country) }}</td>
+      <td>{{ stateName(studentDetails.state) }}</td>
+      <td> {{ cityName(studentDetails.city) }}</td>
+    </tr>
+  </tbody>
+</table>
+

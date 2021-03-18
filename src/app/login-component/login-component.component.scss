@@ -1,0 +1,19 @@
+.form-control, select, button{
+  min-height:30px;
+  min-width: 250px;
+}
+label{
+  width: 120px;
+    display: inline-block;
+}
+.form-group{
+  margin-bottom: 15px;
+}
+.invalid-feedback{
+  color: red;
+  margin-left: 120px;
+  margin-top: 5px;
+}
+form{
+  margin-top: 30px;
+}
